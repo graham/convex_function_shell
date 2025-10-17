@@ -1,6 +1,8 @@
-# convex-function-shell
+# function-shell-for-convex
 
 Interactive REPL shell for exploring and calling Convex functions directly from your terminal.
+
+**Note:** This is an unofficial community package, not affiliated with Convex.
 
 ## Features
 
@@ -17,13 +19,13 @@ Interactive REPL shell for exploring and calling Convex functions directly from 
 Install as a dev dependency in your Convex project:
 
 ```bash
-npm install --save-dev convex-function-shell
+npm install --save-dev function-shell-for-convex
 ```
 
 Or install globally:
 
 ```bash
-npm install -g convex-function-shell
+npm install -g function-shell-for-convex
 ```
 
 ## Usage
@@ -82,8 +84,8 @@ internal.utils.cleanup({})
 ### Building from Source
 
 ```bash
-git clone <repository-url>
-cd convex-function-shell
+git clone https://github.com/graham/convex_function_shell.git
+cd convex_function_shell
 npm install
 npm run build
 ```
