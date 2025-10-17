@@ -1,6 +1,6 @@
 {
   "name": "function-shell-for-convex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Interactive REPL shell for exploring and calling Convex functions (not official)",
   "type": "module",
   "bin": {
