@@ -1,0 +1,41 @@
+{
+  "name": "convex-function-shell",
+  "version": "1.0.0",
+  "description": "Interactive REPL shell for exploring and calling Convex functions",
+  "type": "module",
+  "bin": {
+    "convex-shell": "bin/convex-shell.js"
+  },
+  "main": "dist/shell.js",
+  "types": "dist/shell.d.ts",
+  "files": [
+    "dist",
+    "bin",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "convex",
+    "repl",
+    "shell",
+    "interactive",
+    "functions",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "convex": ">=1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
