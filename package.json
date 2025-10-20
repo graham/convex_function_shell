@@ -6,8 +6,8 @@
   "bin": {
     "convex-shell": "bin/convex-shell.js"
   },
-  "main": "dist/shell.js",
-  "types": "dist/shell.d.ts",
+  "main": "dist/lib.js",
+  "types": "dist/lib.d.ts",
   "files": [
     "dist",
     "bin",
